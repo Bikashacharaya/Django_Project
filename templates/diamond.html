@@ -1,0 +1,208 @@
+{%  extends  'base.html' %}
+
+{% block title %}Diamond{% endblock title %}
+
+{% block body %} 
+
+<div class="entry-content-wrapper clearfix">
+<section class="av_textblock_section" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock " itemprop="text"><p style="text-align: center; font-family: Cinzel; font-size: 30px; color: #363636;">– Diamond Jewelry Collection –</p>
+</div></section>
+<section class="av_textblock_section" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock " itemprop="text"><p style="text-align: center; font-family: Cinzel; font-size: 20px; color: #363636;">– Necklace –</p>
+</div></section>
+
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galley With Hover</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+	
+.carousel-caption{
+	font-family: monospace;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 45px;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+
+}
+
+img{
+	transition: 0.3s;
+	opacity: 1;
+	cursor: pointer;
+	padding-bottom: 18px;
+	filter: grayscale(0);
+	transition: 0.3s ease-in-out;
+}
+.fulldiv{
+	transition: 0.5s ease-in-out;
+}
+
+.col-md-4 .fulldiv:hover{
+	display: block;	
+	opacity: 0.9;
+	border-radius: 5px;
+	filter: grayscale(100%);
+	transform: scale(1.04);
+	transform: translateY(-10px);
+	box-shadow: 2px 4px 18px #666666;
+
+}
+
+.col-md-4:hover .carousel-caption{
+	opacity: 1;
+}
+
+</style>
+
+
+<body>
+<br>
+
+<div class="container">
+<br>
+<div class="row">
+<br>
+<div class="col-md-4 col-sm-6">
+<div class="fulldiv">
+	<img src="image1.jpg" width="100%" height="270px">
+	<div class="img_cr">
+		<div class="carousel-caption">
+			<p>Company :  Toyota</p>
+			<p>Car Name :  Vigo</p>
+			<p>Price :  $30000</p>
+			
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-md-4 col-sm-6">
+<div class="fulldiv">
+	<img src="image2.jpg" width="100%" height="270px">
+	<div class="img_cr">
+		<div class="carousel-caption">
+			<p>Company :  Honda</p>
+			<p>Car Name :  Civic</p>
+			<p>Price :  $30000</p>
+			
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-md-4 col-sm-6">
+<div class="fulldiv">
+	<img src="image3.jpg" width="100%" height="270px">
+	<div class="img_cr">
+		<div class="carousel-caption">
+			<p>Company :  BMW</p>
+			<p>Car Name :  BMW3</p>
+			<p>Price :  $35000</p>
+			
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-md-4 col-sm-6">
+<div class="fulldiv">
+	<img src="image4.jpg" width="100%" height="270px">
+	<div class="img_cr">
+		<div class="carousel-caption">
+			<p>Company :  Toyota</p>
+			<p>Car Name :  Audi4</p>
+			<p>Price :  $40000</p>
+			
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-md-4 col-sm-6">
+<div class="fulldiv">
+	<img src="image5.jpg" width="100%" height="270px">
+	<div class="img_cr">
+		<div class="carousel-caption">
+			<p>Company :  Mitsubish</p>
+			<p>Car Name :  Vigo</p>
+			<p>Price :  $60000</p>
+			
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+<div class="col-md-4 col-sm-6">
+<div class="fulldiv">
+	<img src="image6.jpg" width="100%" height="270px">
+	<div class="img_cr">
+		<div class="carousel-caption">
+			<p>Company :  HOnda</p>
+			<p>Car Name :  Vigo</p>
+			<p>Price :  $30000</p>
+			
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+	
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+{% endblock body %}
+
+
